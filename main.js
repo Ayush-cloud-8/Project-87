@@ -46,8 +46,8 @@ function check_keydown(e) {
             console.log("Shift + P is Pressed Together");
 block_height += 10;
 block_width += 10;
-document.getElementById("block_width").innerHTML = block_width;
-document.getElementById("block_height").innerHTML = block_height;
+document.getElementById("width").innerHTML = block_width;
+document.getElementById("height").innerHTML = block_height;
         } else {
             window.alert("You can't increase the dimensions anymore")
         }
@@ -58,8 +58,8 @@ document.getElementById("block_height").innerHTML = block_height;
             console.log("Shift + M is Pressed Together");
 block_height -= 10;
 block_width -= 10;
-document.getElementById("block_width").innerHTML = block_width;
-document.getElementById("block_height").innerHTML = block_height;
+document.getElementById("width").innerHTML = block_width;
+document.getElementById("height").innerHTML = block_height;
         } else {
             window.alert("You can't decrease the dimensions anymore");
         }
@@ -71,12 +71,12 @@ document.getElementById("block_height").innerHTML = block_height;
     }
 
     if (keypress == "66") {
-        new_image("hulkd_body.png");
+        new_image("spiderman_legs.png");
         console.log("b");
     }
 
     if (keypress == "76") {
-        new_image("spiderman_legs.png");
+        new_image("hulkd_body.png");
         console.log("l");
     }
 
